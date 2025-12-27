@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Mosultan1068
+- 👋 Hi, I’m @Mohamed Sultan - Software developer
 - 👀 I’m interested in software development
-- 🌱 I’m currently learning data science and python
+- 🌱 I write a lot of Python and Datascience code using python
 - 💞️ I’m looking to collaborate on coding and other development ideas
 - 📫 How to reach me on email - meesultan@gmail.com
 - 😄 Pronouns: Not sure
