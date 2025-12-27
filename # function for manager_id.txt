@@ -1,0 +1,19 @@
+# function to return everything from the employee table
+# for a specific manager id
+CREATE OR REPLACE FUNCTION get_direct_reports(manager_emp_id INTEGER)
+RETURNS SETOF employee
+LANGUAGE sql
+STABLE
+AS $$
+    SELECT *
+    FROM employee
+    WHERE manager_id = manager_emp_id
+    ORDER BY last_name;
+$$;
+
+
+# this can be used as follows;
+SELECT get_employee_full_name(emp_id) AS employee_name, emp_id
+FROM get_direct_reports(3);  -- Manager with id 3
+
+# the above is a combination of the 2 functions
